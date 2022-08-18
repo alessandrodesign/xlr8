@@ -1,0 +1,31 @@
+{
+  "name": "alessandrodesign/xlr8",
+  "description": "XLR8 Backend Interview",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alessandro P. Souza",
+      "email": "alessandro-design@hotmail.com",
+      "role": "Developer",
+      "homepage": "https://www.alessandrodesign.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "XLR8\\": "src"
+    }
+  },
+  "require": {
+    "php": "^7.3",
+    "ext-dom": "*",
+    "ext-pdo": "*",
+    "ext-intl": "*",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7.0"
+  }
+}
